@@ -1,7 +1,7 @@
 <html>
 <head>
 </head>
-<body>
+<body background="#191970">
 <script>
 function validateForm() {
     var x = document.forms["myForm"]["fullname"]["cpf"]["telefone"]["visitando"]["rad"].value;
@@ -64,7 +64,18 @@ function validateForm() {
 </form>
 	</div>
 </div>
-<input type="submit" value="Enviar">
+<button onclick="myFunction()">Cancelar</button>
+<script>
+function myFunction() {
+    confirm("Deseja cancelar?");
+}
+</script>
+<button onclick="myFunction()">Confirma</button>
+<script>
+function myFunction() {
+    alert("Cadastro feito com sucesso");
+}
+</script>
 
 
 </body>
