@@ -4,14 +4,14 @@
 <body>
 <script>
 function validateForm() {
-    var x = document.forms["myForm"]["fullname"][""cpf"]["telefone"]["visitando"]["rad"].value;
+    var x = document.forms["myForm"]["fullname"]["cpf"]["telefone"]["visitando"]["rad"].value;
     if (x == "") {
         alert("Cadastro feito com sucesso");
         return false;
     }
 }
 </script>
-<form name="myForm" action="/action_page_post.php" onsubmit="return validateForm()" method="post">
+<form name="myForm" action="" onsubmit="return validateForm()" method="post">
 
 
 <div class="container">
